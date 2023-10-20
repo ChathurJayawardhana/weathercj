@@ -10,7 +10,7 @@ const makeIconURL = (iconId) =>
  const data = await fetch(URL)
  .then((res) => res.json())
  .then((data) => data);
-
+//////////
  const {
     weather,
     main: { temp, feels_like, temp_min, temp_max, pressure, humidity },
